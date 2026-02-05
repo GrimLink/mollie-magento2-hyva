@@ -4,8 +4,9 @@
  */
 
 @source "../templates/**/*.phtml";
+
+@import "./mollie.css";
+
 @source inline("mollie-component");
 @source inline("mollie-card-component");
 @source inline("apple-pay-button");
-
-@import "./mollie.css";
