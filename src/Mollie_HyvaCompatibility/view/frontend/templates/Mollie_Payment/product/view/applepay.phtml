@@ -4,8 +4,11 @@
  * See COPYING.txt for license details.
  */
 
-/** @var \Magento\Framework\Escaper $escaper */
-/** @var \Mollie\Payment\Block\Product\View\ApplePay $block */
+use Magento\Framework\Escaper;
+use Mollie\Payment\Block\Product\View\ApplePay;
+
+/** @var Escaper $escaper */
+/** @var ApplePay $block */
 
 if (!$block->isEnabled()) {
     return;
