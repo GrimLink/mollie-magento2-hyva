@@ -17,7 +17,7 @@ use Magento\Framework\Escaper;
      x-data="prepareMollieApplePayMinicart"
 >
 
-    <div class="<?= $block->escapeHtmlAttr($block->getButtonClasses()); ?> cursor-pointer"
+    <div class="<?= $escaper->escapeHtmlAttr($block->getButtonClasses()); ?> cursor-pointer"
          @click="pay"
     >
         <span class="sr-only">Buy with</span>
